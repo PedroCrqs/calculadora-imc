@@ -1,5 +1,9 @@
 // Calculadora de índice da massa corporal
 
+window.onload = function () {
+  alert("Bem-vindo à Calculadora de Índice de Massa Corporal!");
+};
+
 function calcularIMC(peso, altura) {
   if (peso <= 0 || altura <= 0) {
     return "Valores inválidos.";
